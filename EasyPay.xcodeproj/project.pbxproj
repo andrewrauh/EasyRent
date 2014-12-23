@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F990D65D1A4A15CB00A34CFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F990D65C1A4A15CB00A34CFA /* main.m */; };
+		F990D6601A4A15CB00A34CFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F990D65F1A4A15CB00A34CFA /* AppDelegate.m */; };
+		F990D6631A4A15CB00A34CFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F990D6621A4A15CB00A34CFA /* ViewController.m */; };
+		F990D6661A4A15CB00A34CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F990D6641A4A15CB00A34CFA /* Main.storyboard */; };
+		F990D6681A4A15CB00A34CFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F990D6671A4A15CB00A34CFA /* Images.xcassets */; };
+		F990D66B1A4A15CB00A34CFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F990D6691A4A15CB00A34CFA /* LaunchScreen.xib */; };
+		F990D6771A4A15CB00A34CFA /* EasyPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F990D6761A4A15CB00A34CFA /* EasyPayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F990D6711A4A15CB00A34CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F990D64F1A4A15CB00A34CFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F990D6561A4A15CB00A34CFA;
+			remoteInfo = EasyPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F990D6571A4A15CB00A34CFA /* EasyPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F990D65B1A4A15CB00A34CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F990D65C1A4A15CB00A34CFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F990D65E1A4A15CB00A34CFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F990D65F1A4A15CB00A34CFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F990D6611A4A15CB00A34CFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F990D6621A4A15CB00A34CFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F990D6651A4A15CB00A34CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F990D6671A4A15CB00A34CFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F990D66A1A4A15CB00A34CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F990D6701A4A15CB00A34CFA /* EasyPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F990D6751A4A15CB00A34CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F990D6761A4A15CB00A34CFA /* EasyPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F990D6541A4A15CB00A34CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F990D66D1A4A15CB00A34CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F990D64E1A4A15CB00A34CFA = {
+			isa = PBXGroup;
+			children = (
+				F990D6591A4A15CB00A34CFA /* EasyPay */,
+				F990D6731A4A15CB00A34CFA /* EasyPayTests */,
+				F990D6581A4A15CB00A34CFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F990D6581A4A15CB00A34CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F990D6571A4A15CB00A34CFA /* EasyPay.app */,
+				F990D6701A4A15CB00A34CFA /* EasyPayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F990D6591A4A15CB00A34CFA /* EasyPay */ = {
+			isa = PBXGroup;
+			children = (
+				F990D65E1A4A15CB00A34CFA /* AppDelegate.h */,
+				F990D65F1A4A15CB00A34CFA /* AppDelegate.m */,
+				F990D6611A4A15CB00A34CFA /* ViewController.h */,
+				F990D6621A4A15CB00A34CFA /* ViewController.m */,
+				F990D6641A4A15CB00A34CFA /* Main.storyboard */,
+				F990D6671A4A15CB00A34CFA /* Images.xcassets */,
+				F990D6691A4A15CB00A34CFA /* LaunchScreen.xib */,
+				F990D65A1A4A15CB00A34CFA /* Supporting Files */,
+			);
+			path = EasyPay;
+			sourceTree = "<group>";
+		};
+		F990D65A1A4A15CB00A34CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F990D65B1A4A15CB00A34CFA /* Info.plist */,
+				F990D65C1A4A15CB00A34CFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F990D6731A4A15CB00A34CFA /* EasyPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F990D6761A4A15CB00A34CFA /* EasyPayTests.m */,
+				F990D6741A4A15CB00A34CFA /* Supporting Files */,
+			);
+			path = EasyPayTests;
+			sourceTree = "<group>";
+		};
+		F990D6741A4A15CB00A34CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F990D6751A4A15CB00A34CFA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F990D6561A4A15CB00A34CFA /* EasyPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F990D67A1A4A15CB00A34CFA /* Build configuration list for PBXNativeTarget "EasyPay" */;
+			buildPhases = (
+				F990D6531A4A15CB00A34CFA /* Sources */,
+				F990D6541A4A15CB00A34CFA /* Frameworks */,
+				F990D6551A4A15CB00A34CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyPay;
+			productName = EasyPay;
+			productReference = F990D6571A4A15CB00A34CFA /* EasyPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F990D66F1A4A15CB00A34CFA /* EasyPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F990D67D1A4A15CB00A34CFA /* Build configuration list for PBXNativeTarget "EasyPayTests" */;
+			buildPhases = (
+				F990D66C1A4A15CB00A34CFA /* Sources */,
+				F990D66D1A4A15CB00A34CFA /* Frameworks */,
+				F990D66E1A4A15CB00A34CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F990D6721A4A15CB00A34CFA /* PBXTargetDependency */,
+			);
+			name = EasyPayTests;
+			productName = EasyPayTests;
+			productReference = F990D6701A4A15CB00A34CFA /* EasyPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F990D64F1A4A15CB00A34CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Andrew Rauh";
+				TargetAttributes = {
+					F990D6561A4A15CB00A34CFA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F990D66F1A4A15CB00A34CFA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F990D6561A4A15CB00A34CFA;
+					};
+				};
+			};
+			buildConfigurationList = F990D6521A4A15CB00A34CFA /* Build configuration list for PBXProject "EasyPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F990D64E1A4A15CB00A34CFA;
+			productRefGroup = F990D6581A4A15CB00A34CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F990D6561A4A15CB00A34CFA /* EasyPay */,
+				F990D66F1A4A15CB00A34CFA /* EasyPayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F990D6551A4A15CB00A34CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F990D6661A4A15CB00A34CFA /* Main.storyboard in Resources */,
+				F990D66B1A4A15CB00A34CFA /* LaunchScreen.xib in Resources */,
+				F990D6681A4A15CB00A34CFA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F990D66E1A4A15CB00A34CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F990D6531A4A15CB00A34CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F990D6631A4A15CB00A34CFA /* ViewController.m in Sources */,
+				F990D6601A4A15CB00A34CFA /* AppDelegate.m in Sources */,
+				F990D65D1A4A15CB00A34CFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F990D66C1A4A15CB00A34CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F990D6771A4A15CB00A34CFA /* EasyPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F990D6721A4A15CB00A34CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F990D6561A4A15CB00A34CFA /* EasyPay */;
+			targetProxy = F990D6711A4A15CB00A34CFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F990D6641A4A15CB00A34CFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F990D6651A4A15CB00A34CFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F990D6691A4A15CB00A34CFA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F990D66A1A4A15CB00A34CFA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F990D6781A4A15CB00A34CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F990D6791A4A15CB00A34CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F990D67B1A4A15CB00A34CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F990D67C1A4A15CB00A34CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F990D67E1A4A15CB00A34CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPay.app/EasyPay";
+			};
+			name = Debug;
+		};
+		F990D67F1A4A15CB00A34CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EasyPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPay.app/EasyPay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F990D6521A4A15CB00A34CFA /* Build configuration list for PBXProject "EasyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F990D6781A4A15CB00A34CFA /* Debug */,
+				F990D6791A4A15CB00A34CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F990D67A1A4A15CB00A34CFA /* Build configuration list for PBXNativeTarget "EasyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F990D67B1A4A15CB00A34CFA /* Debug */,
+				F990D67C1A4A15CB00A34CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F990D67D1A4A15CB00A34CFA /* Build configuration list for PBXNativeTarget "EasyPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F990D67E1A4A15CB00A34CFA /* Debug */,
+				F990D67F1A4A15CB00A34CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F990D64F1A4A15CB00A34CFA /* Project object */;
+}
